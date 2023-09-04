@@ -1,0 +1,26 @@
+{
+  "short_name": "btq",
+  "name": "Boutique",
+  "icons": [
+    {
+      "src": "/res/svg/favicon.svg"
+      "type": "image/svg+xml",
+      "sizes": "512x512"
+    },
+    {
+      "src": "/res/favicon-192.png"
+      "type": "image/png",
+      "sizes": "192x192"
+    },
+      "src": "/res/favicon-512.png"
+      "type": "image/png",
+      "sizes": "512x512"
+    }
+  ],
+  "id": "/",
+  "start_url": "/",
+  "background_color": "#FFFFFF",
+  "display": "standalone",
+  "scope": "/",
+  "theme_color": "#FFFFFF"
+}
