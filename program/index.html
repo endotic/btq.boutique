@@ -11,13 +11,20 @@
 <meta http-equiv="refresh" content="0; url=https://btq.boutique/" />
 <title>Boutique</title>
 <style>
+@keyframes spin {
+    100% { transform: rotate(720deg); }
+}
 
+body {
+    max-width: 600px;
+    margin: 150px auto;
+}
+
+img {
+    animation: spin 10s;
+}
 </style>
 </head>
-<body>
-<main>
-<img src='../res/logotype.png'>
-<p><a href="https://btq.boutique/">redirect</a></p>
-</main>
+<body><a href="https://btq.boutique/"><img src='../res/logotype_600px.png'></a>
 </body>
 </html>
