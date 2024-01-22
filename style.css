@@ -129,10 +129,11 @@ footer p:first-child {
 
 @media screen and (max-width: max(100vh, 800px)) {
     :root {
-        font-size: 19px;
+        font-size: 24px;
     }
     body, main, footer {
         width: 100%;
+        max-width: min(1366px, 98vw);
         padding: 0;
         justify-content: center;
     }
@@ -144,6 +145,7 @@ footer p:first-child {
         min-width: 100%;
     }
     nav li::before {
+        content: '▸ ';
         -webkit-text-stroke-width: 1px;
     }
     nav li.blue::before {
@@ -177,8 +179,11 @@ footer p:first-child {
         padding: 1rem; max-width: calc(100% - 2rem);
     }
     section > * {
-        width: 450px;
+        width: 800px;
         margin: auto;
+    }
+    footer {
+        text-align: center;
     }
 }
 
@@ -201,7 +206,7 @@ nav ul {
 }
 
 li::before, h2::before {
-    content: '▸ ';
+    content: '🠢 ';
 }
 
 nav a {
