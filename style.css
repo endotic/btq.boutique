@@ -85,6 +85,7 @@ main section {
     display: flex;
     flex-flow: row wrap;
     justify-content: space-between;
+    margin-bottom: 2rem;
 }
 
 article {
@@ -109,13 +110,13 @@ figure * {
 }
 
 footer {
-    margin: 2rem auto;
+    margin: auto;
     padding-left: 200px; /* corrects body offset */
 }
 
 footer p:first-child {
     border-top: 1px solid black;
-    padding: 2rem;
+    padding: 2rem 4rem;
 }
 
 /* responsive layout */
@@ -128,20 +129,21 @@ footer p:first-child {
 
 @media screen and (max-width: max(100vh, 800px)) {
     :root {
-        font-size: 16px;
+        font-size: 19px;
     }
-    body, footer {
+    body, main, footer {
+        width: 100%;
         padding: 0;
+        justify-content: center;
     }
     header {
-        margin: 0;
-        border: none;
+        text-align: center;
+        padding: 1rem 0;
     }
     header, nav {
         min-width: 100%;
     }
     nav li::before {
-        content: '▸ ';
         -webkit-text-stroke-width: 1px;
     }
     nav li.blue::before {
@@ -165,7 +167,6 @@ footer p:first-child {
         -webkit-text-stroke-color: var(--purple);
     }
     main section {
-        flex-flow: column wrap;
         border-top: 1px solid var(--black);
         margin-top: -1px;
     }
@@ -200,7 +201,7 @@ nav ul {
 }
 
 li::before, h2::before {
-    content: ' ◟';
+    content: '▸ ';
 }
 
 nav a {
@@ -219,7 +220,6 @@ nav a:hover {
     animation: navanim 0.2s;
     animation-fill-mode: forwards;
 }
-
 
 nav li.blue a:hover {
     text-decoration-color: var(--blue);
