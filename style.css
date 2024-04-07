@@ -206,7 +206,7 @@ nav ul {
 }
 
 li::before, h2::before {
-    content: '🠢 ';
+    content: '✴ ';
 }
 
 nav a {
