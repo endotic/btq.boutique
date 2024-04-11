@@ -5,13 +5,13 @@
 
 @font-face {
     font-family: 'Iosevka Etoile';
-    src: url('res/IosevkaEtoile-Regular.woff2') format('woff2');
+    src: url('res/IosevkaEtoile-Italic.woff2') format('woff2');
     font-style: italic;
 }
 
 @font-face {
     font-family: 'Iosevka Etoile';
-    src: url('res/IosevkaEtoile-Regular.woff2') format('woff2');
+    src: url('res/IosevkaEtoile-Bold.woff2') format('woff2');
     font-weight: bold;
 }
 
