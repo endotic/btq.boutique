@@ -193,10 +193,6 @@ h2, h3 {
     font-size: inherit;
 }
 
-h2 {
-    font-weight: inherit;
-}
-
 h3 {
     padding-top: 0.5ex; /* alignment fix */
 }
