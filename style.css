@@ -1,17 +1,17 @@
 @font-face {
-    font-family: 'DefaultSans';
-    src: url('res/font-regular.otf') format('opentype');
+    font-family: 'Iosevka Etoile';
+    src: url('res/IosevkaEtoile-Regular.woff2') format('woff2');
 }
 
 @font-face {
-    font-family: 'DefaultSans';
-    src: url('res/font-italic.otf') format('opentype');
+    font-family: 'Iosevka Etoile';
+    src: url('res/IosevkaEtoile-Regular.woff2') format('woff2');
     font-style: italic;
 }
 
 @font-face {
-    font-family: 'DefaultSans';
-    src: url('res/font-bold.otF') format('opentype');
+    font-family: 'Iosevka Etoile';
+    src: url('res/IosevkaEtoile-Regular.woff2') format('woff2');
     font-weight: bold;
 }
 
@@ -34,7 +34,7 @@
 /* set most layout & font options to manual */
 
 * {
-    font-family: 'DefaultSans', Verdana, sans-serif;
+    font-family: 'Iosevka Etoile', Tahoma, sans-serif;
     font-style: normal;
     color: var(--black);
 
