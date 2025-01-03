@@ -92,6 +92,11 @@ article {
     max-width: 450px;
 }
 
+main section:first article:first::before {
+    position:fixed;
+     background-image: linear-gradient(default, whitesmoke, rgba(99,99,99, 0.0)); 
+}
+
 article p {
     line-height: 1.5rem;
     margin-bottom: 1.5rem;
