@@ -92,9 +92,10 @@ article {
     max-width: 450px;
 }
 
-main section:first article:first::before {
+main section:first-child article:first-child::before {
     position:fixed;
-     background-image: linear-gradient(default, whitesmoke, rgba(99,99,99, 0.0)); 
+    background-image: linear-gradient(default, whitesmoke, rgba(99,99,99, 0.0));
+    z-index: 100;
 }
 
 article p {
