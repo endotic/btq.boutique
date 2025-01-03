@@ -92,7 +92,7 @@ article {
     max-width: 450px;
 }
 
-main article:first-of-type ::before {
+main article:first-of-type {
     position:fixed;
     background-image: linear-gradient(default, whitesmoke, rgba(99,99,99, 0.0));
     z-index: 100;
