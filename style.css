@@ -39,7 +39,7 @@
     color: var(--black);
 
     margin: 0;
-    padding: 0; 
+    padding: 0;
 }
 
 /* layout */
@@ -88,14 +88,9 @@ main section {
     margin-bottom: 2rem;
 }
 
-article {
+section article:first-of-type {
+    margin-top: -0.3em;
     max-width: 450px;
-}
-
-main article:first-of-type {
-    position:fixed;
-    background-image: linear-gradient(default, whitesmoke, rgba(99,99,99, 0.0));
-    z-index: 100;
 }
 
 article p {
